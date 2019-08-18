@@ -220,20 +220,22 @@
 
 .img-list {
   overflow: hidden;
-  padding: 20px 0;
 }
 
-.img-list .dtbox {
-  width: 32.5%;
-  float: left;
-  margin-right: 1.25%;
-}
-
-.img-list .dtbox:nth-of-type(3n) {
-  margin-right: 0;
-}
-
-.img-list .dtbox img {
-  width: 100%;
-  border-radius: 10px;
+@media screen and (min-width: 750px) and (max-width: 1920px) {
+  .img-list {
+    padding: 20px 0;
+  }
+  .img-list .dtbox {
+    width: 32.5%;
+    float: left;
+    margin-right: 1.25%;
+  }
+  .img-list .dtbox:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .img-list .dtbox img {
+    width: 100%;
+    border-radius: 10px;
+  }
 }

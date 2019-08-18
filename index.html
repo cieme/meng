@@ -35,15 +35,13 @@
     <script type="text/javascript" id="" src="./js/util.js"></script>
     <script type="text/javascript" id="" src="./js/shareData.js"></script>
     <script type="text/javascript" src="./js/weixin.js"></script>
-    <!--     <script type="text/javascript" id="" src="./js/spm.js"></script> -->
-    <script type="text/javascript" id="" src="./js/hlcmt.js"></script>
-    <!--     <script type="text/javascript" src="https://p.wts.xinwen.cn/dot-wts/spm.js"></script> -->
     <link type="text/css" rel="stylesheet" href="http://cmt.cqnews.net/template/css/cmt.css">
     <script type="text/javascript" src="./js/template.js"></script>
     <script type="text/javascript"
         src="http://wxin2.cqnews.net/jsconfig.aspx?gp=7b79e5eb52484c758cea6533a776fe5d&amp;url=http%3A//cq.cqnews.net/cqztlm/col604654.html%3Ffrom%3Dsinglemessage%26isappinstalled%3D0">
     </script>
-    <script type="text/javascript" src="./js/cmt.min.js"></script>
+    <link rel="stylesheet" href="./css/dist.css">
+    <script src="./js/dist.js"></script>
 </head>
 <style>
     html {
@@ -52,14 +50,18 @@
         -moz-text-size-adjust: none;
         text-size-adjust: none;
     }
+
+    #hualong {
+        display: none;
+    }
 </style>
 
 <body style="zoom: 1;">
-    <div id="_h5_loading" style="display: none;"></div>
+    <div id="_h5_loading"></div>
     <div id="_h5_box" style="display: block;">
         <!--移动端插件（CSS/JS)-->
-        <div id="__plugins"><img src="./css/mo_indexStyle.css" style="display:none;"><img
-                src="./css/h5.css" style="display:none"> </div>
+        <div id="__plugins"><img src="./css/mo_indexStyle.css" style="display:none;"><img src="./css/h5.css"
+                style="display:none"> </div>
         <!--分享图片(标题图)-->
         <img id="_h5_share" src="http://i1.cqnews.net/html5/90647.files/images/weblogo.png"
             style="position:absolute; display:block; top:-9999px">
@@ -404,135 +406,110 @@
         </style>
 
         <!--顶部图片-->
-        <div class="banner" style="height:auto"><img
-                src="http://i4.cqnews.net/cqtoday/2019-07/23/34dba153-9131-4241-96d1-dc8e96629b13.png"></div>
+        <div class="banner" style="height:auto"><img src="./images/banner.png"></div>
 
-        <article>
-            <div class="dttbox">
-                <a href="http://cq.cqnews.net/cqztlm/2019-07/23/content_50581466.html" target="_blank"><img
-                        src="http://i2.cqnews.net/cqtoday/2019-07/23/78a7441a-052f-4d0f-a99e-7e30b57067e8.png"
-                        border="0">
-                    <p></p>
-                </a></div>
-        </article>
-
-
-        <div class="btbox"><span>参赛手册</span><a href="http://cq.cqnews.net/cqztlm/col604739.htm" target="_blank"
-                style="float:right; color:#FFFFFF">更多》</a></div>
-        <article>
-            <div class="zibox">
-                <li><a href="http://cq.cqnews.net/cqztlm/2019-07/23/content_50581466.html" target="_blank"> 征集启事</a>
-                </li>
-                <li><a href="http://2019.zggsds.china.com.cn/user/login" target="_blank"> 参赛入口</a></li>
-                <li><a href="http://cq.cqnews.net/cqztlm/2019-07/22/content_50580477.html" target="_blank"> 参赛须知</a>
-                </li>
-                <li><a href="http://cq.cqnews.net/cqztlm/2019-07/24/content_50583701.html" target="_blank"> 大赛章程</a>
-                </li>
-            </div>
-        </article>
-
-        <div class="btbox"><span>新闻资讯</span><a href="http://cq.cqnews.net/cqztlm/col604655.htm" target="_blank"
-                style="float:right; color:#FFFFFF">更多》</a></div>
-
-        <article>
-            <!--ttbox是头条新闻，字数未限定，可以撑行-->
-            <div class="ttbox">
-                <a href="http://cq.cqnews.net/cqztlm/col601260.html" target="_blank"> 2019“讲好中国故事”创意传播大赛 重庆分站赛作品征集启事</a>
-            </div>
-            <!--zybox是摘要，字数未限定，可以撑行-->
-            <div class="zybox">
-                <a href="http://cq.cqnews.net/cqztlm/col601260.html" target="_blank">
-                    4月28日，2019“讲好中国故事”创意传播大赛启动会在北京举行。大赛由国务院新闻办公室指导，中国外文局主办，华中科技大学学术支持，当代中国与世界研究院、中国互联网新闻中心承办，中国新闻史学会公共关系分会特邀协办。大赛将分两个阶段进行，2019年10月，全国各地分站赛完成作品征集与评选；2019年11月至12月，创意传播大赛举行总决赛。</a>
-            </div>
-            <div class="ttbox">
-                <a href="http://cq.cqnews.net/html/2019-07/25/content_50586822.html" target="_blank">
-                    2019"讲好中国故事"创意传播大赛重庆分站赛启动仪式在渝举行</a>
-            </div>
-            <!--zybox是摘要，字数未限定，可以撑行-->
-            <div class="zybox">
-                <a href="http://cq.cqnews.net/html/2019-07/25/content_50586822.html" target="_blank">
-                    2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式今天上午在重庆大学举行。继湖北分站赛、湖南长沙分站赛启动后，网红城市重庆成为分站赛的第三站，同时也是本届大赛的首个直辖市分站赛。</a>
-            </div>
-            <div class="fgxybox"></div>
-            <div class="ttbox">
-                <a href="http://cq.cqnews.net/html/2019-07/10/content_50558313.html" target="_blank">
-                    “讲好中国故事”创意传播大赛重庆分站赛启动 最高奖金1万元</a>
-            </div>
-
-            <div class="zybox">
-                <a href="http://cq.cqnews.net/html/2019-07/10/content_50558313.html" target="_blank">
-                    日前，2019“讲好中国故事”创意传播大赛在北京启动。该赛事是面向国内外社会公众公开征集各领域中国故事、传播中国好声音、树立中国良好国际形象的年度官方品牌活动，致力于汇集各方力量，共同讲好中国故事，对外展现真实、立体、全面的中国。今（10）日，该赛事重庆分站赛也在重庆大学启动，如何参赛、有哪些规则和要求，进来看看吧！</a>
-            </div>
-        </article>
+        <div class="data-8">
+            <article>
+                <div class="dttbox">
+                    <a href="http://cq.cqnews.net/cqztlm/2019-07/23/content_50581466.html" target="_blank"><img
+                            src="http://i2.cqnews.net/cqtoday/2019-07/23/78a7441a-052f-4d0f-a99e-7e30b57067e8.png"
+                            border="0">
+                        <p></p>
+                    </a></div>
+            </article>
 
 
-        <article>
-            <div class="zibox">
-                <li><a href="http://cq.cqnews.net/html/2019-07/25/content_50586882.html" target="_blank">
-                        2019“讲好中国故事”创意传播大赛重庆分站赛开赛<br></a></li>
-                <li><a href="http://cq.cqnews.net/html/2019-08/02/content_50600384.html" target="_blank"> 用匠心和创意浇灌国产动画电影
-                        讲好中国故事</a></li>
-                <li><a href="http://cq.cqnews.net/html/2019-08/01/content_50598420.html" target="_blank">
-                        弘扬革命精神，讲好中国故事</a></li>
-                <li><a href="http://wx.china.com.cn/scene/content/article/straight/8665" target="_blank">
-                        直播回顾|2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式</a></li>
-            </div>
-        </article>
+            <div class="btbox"><span>参赛手册</span><a href="http://cq.cqnews.net/cqztlm/col604739.htm" target="_blank"
+                    style="float:right; color:#FFFFFF">更多》</a></div>
+            <article>
+                <div class="zibox">
+                    <li><a href="http://cq.cqnews.net/cqztlm/2019-07/23/content_50581466.html" target="_blank"> 征集启事</a>
+                    </li>
+                    <li><a href="http://2019.zggsds.china.com.cn/user/login" target="_blank"> 参赛入口</a></li>
+                    <li><a href="http://cq.cqnews.net/cqztlm/2019-07/22/content_50580477.html" target="_blank"> 参赛须知</a>
+                    </li>
+                    <li><a href="http://cq.cqnews.net/cqztlm/2019-07/24/content_50583701.html" target="_blank"> 大赛章程</a>
+                    </li>
+                </div>
+            </article>
+
+            <div class="btbox"><span>新闻资讯</span><a href="http://cq.cqnews.net/cqztlm/col604655.htm" target="_blank"
+                    style="float:right; color:#FFFFFF">更多》</a></div>
+
+            <article>
+                <!--ttbox是头条新闻，字数未限定，可以撑行-->
+                <div class="ttbox">
+                    <a href="http://cq.cqnews.net/cqztlm/col601260.html" target="_blank"> 2019“讲好中国故事”创意传播大赛
+                        重庆分站赛作品征集启事</a>
+                </div>
+                <!--zybox是摘要，字数未限定，可以撑行-->
+                <div class="zybox">
+                    <a href="http://cq.cqnews.net/cqztlm/col601260.html" target="_blank">
+                        4月28日，2019“讲好中国故事”创意传播大赛启动会在北京举行。大赛由国务院新闻办公室指导，中国外文局主办，华中科技大学学术支持，当代中国与世界研究院、中国互联网新闻中心承办，中国新闻史学会公共关系分会特邀协办。大赛将分两个阶段进行，2019年10月，全国各地分站赛完成作品征集与评选；2019年11月至12月，创意传播大赛举行总决赛。</a>
+                </div>
+                <div class="ttbox">
+                    <a href="http://cq.cqnews.net/html/2019-07/25/content_50586822.html" target="_blank">
+                        2019"讲好中国故事"创意传播大赛重庆分站赛启动仪式在渝举行</a>
+                </div>
+                <!--zybox是摘要，字数未限定，可以撑行-->
+                <div class="zybox">
+                    <a href="http://cq.cqnews.net/html/2019-07/25/content_50586822.html" target="_blank">
+                        2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式今天上午在重庆大学举行。继湖北分站赛、湖南长沙分站赛启动后，网红城市重庆成为分站赛的第三站，同时也是本届大赛的首个直辖市分站赛。</a>
+                </div>
+                <div class="fgxybox"></div>
+                <div class="ttbox">
+                    <a href="http://cq.cqnews.net/html/2019-07/10/content_50558313.html" target="_blank">
+                        “讲好中国故事”创意传播大赛重庆分站赛启动 最高奖金1万元</a>
+                </div>
+
+                <div class="zybox">
+                    <a href="http://cq.cqnews.net/html/2019-07/10/content_50558313.html" target="_blank">
+                        日前，2019“讲好中国故事”创意传播大赛在北京启动。该赛事是面向国内外社会公众公开征集各领域中国故事、传播中国好声音、树立中国良好国际形象的年度官方品牌活动，致力于汇集各方力量，共同讲好中国故事，对外展现真实、立体、全面的中国。今（10）日，该赛事重庆分站赛也在重庆大学启动，如何参赛、有哪些规则和要求，进来看看吧！</a>
+                </div>
+            </article>
+
+
+            <article>
+                <div class="zibox">
+                    <li><a href="http://cq.cqnews.net/html/2019-07/25/content_50586882.html" target="_blank">
+                            2019“讲好中国故事”创意传播大赛重庆分站赛开赛<br></a></li>
+                    <li><a href="http://cq.cqnews.net/html/2019-08/02/content_50600384.html" target="_blank">
+                            用匠心和创意浇灌国产动画电影
+                            讲好中国故事</a></li>
+                    <li><a href="http://cq.cqnews.net/html/2019-08/01/content_50598420.html" target="_blank">
+                            弘扬革命精神，讲好中国故事</a></li>
+                    <li><a href="http://wx.china.com.cn/scene/content/article/straight/8665" target="_blank">
+                            直播回顾|2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式</a></li>
+                </div>
+            </article>
 
 
 
+            <div class="btbox"><span>图片新闻</span></div>
 
-        <!--tpbox是图片列表
-    
-    <div class="btbox"><span>视频报道</span><a href="http://cq.cqnews.net/cqztlm/col604123.htm" target="_blank" style="float:right; color:#FFFFFF">更多》</a></div>
-      <div class="tpbox">
-        <a   href="http://v.cqnews.net/first/2019-06/07/content_50492105.html"  target="_blank" ><img src="http://i3.cqnews.net/cqtoday/2019-06/08/t2_(14X22X428X303)a94c54b7-afaf-47dc-83c7-a8236c17f2c1.png"    border="0"> <p> Hi！端午</p></a><a   href="http://v.cqnews.net/first/2019-06/06/content_50491867.html"  target="_blank" ><img src="http://i4.cqnews.net/cqtoday/2019-06/08/t2_(7X13X427X306)daf4b7f8-58b6-40d7-b0b2-becadf4bb282.png"    border="0"> <p> 多彩活动迎端午</p></a>
-      </div>
-      <div class="clear"></div>
-    </article> -->
-
-
-        <div class="btbox"><span>图片新闻</span></div>
-
-        <article>
-            <div class="dtbox"><a href="http://cq.cqnews.net/html/2019-07/25/content_50586822.html" target="_blank"><img
-                        src="http://i1.cqnews.net/cqtoday/2019-07/25/t2_(1X0X596X343)ece17454-ce85-4a9c-a59c-496774765660.jpg"
-                        border="0">
-                    <p> 2019"讲好中国故事"创意传播大赛重庆分站赛启动仪式在渝举行</p>
-                </a></div>
-            <div class="dtbox"><a href="http://cq.cqnews.net/html/2019-07/25/content_50586856.html" target="_blank"><img
-                        src="http://i2.cqnews.net/cqtoday/2019-07/25/t2_(51X53X566X352)7040aa14-d3f3-4782-b84d-692faba1e843.jpg"
-                        border="0">
-                    <p> 重庆市委宣传部常务副部长薛竹：多种对外传播方式并举 讲好重庆故事</p>
-                </a></div>
-            <div class="dtbox"><a href="http://cq.cqnews.net/html/2019-07/25/content_50586857.html" target="_blank"><img
-                        src="http://i3.cqnews.net/cqtoday/2019-07/25/t2_(13X51X533X353)3938c891-5faf-41b3-883f-e357595e8ca4.jpg"
-                        border="0">
-                    <p> 重庆大学党委副书记王旭：用优秀作品为重庆大学90周年献礼<br></p>
-                </a></div>
-        </article>
-
-
-        <!--dtbox是大图新闻，标题一行多>
-    <div class="btbox"><span>各地活动</span><a href="http://cq.cqnews.net/cqztlm/col604107.htm" target="_blank" style="float:right; color:#FFFFFF">更多》</a></div>
-    <article>
-    
-      <div class="tpbox">
-        <a   href="http://cq.cqnews.net/cqqx/html/2019-06/09/content_50492933.html"  target="_blank" ><img src="http://i4.cqnews.net/qx/html/2019-06/09/7ebe8cea-5035-46b8-bfd5-1b3c7a2cbf27.jpg"    border="0"> <p> 汉服主题串起端午思绪 江津白沙古镇“梦入”历史</p></a><a   href="http://cq.cqnews.net/html/2019-06/09/content_50492802.html"  target="_blank" ><img src="http://i1.cqnews.net/cqtoday/2019-06/09/t2_(0X14X600X404)c9d0441b-aca5-47d0-b7f6-511fb99dfc63.jpg"    border="0"> <p> 端午过后村民忙种蔬菜</p></a>
-      </div>
-      <div class="clear"></div>
-    </article>
-     
-    
-    <article>
-        <div class="zibox dash">
-          <ul>
-            <li><a   href="http://news.cqnews.net/html/2019-06/09/content_50492837.html"  target="_blank" >· 端午假期迎来消费热潮！民俗游、吃粽子…你今年贡献了多少?</a></li><li><a   href="http://cq.cqnews.net/html/2019-06/09/content_50492799.html"  target="_blank" >· 端午假期 美好时光</a></li><li><a   href="http://cq.cqnews.net/cqqx/2019-06/09/content_50492551.html"  target="_blank" >· 铜梁安居古城耍事多 水云龙闹"端午"</a></li><li><a   href="http://news.cqnews.net/html/2019-06/07/content_50492286.html"  target="_blank" >· 过端午网上"晒"出文化味 网友展示各地过节习俗</a></li>
-    </ul>
+            <article>
+                <div class="dtbox"><a href="http://cq.cqnews.net/html/2019-07/25/content_50586822.html"
+                        target="_blank"><img
+                            src="http://i1.cqnews.net/cqtoday/2019-07/25/t2_(1X0X596X343)ece17454-ce85-4a9c-a59c-496774765660.jpg"
+                            border="0">
+                        <p> 2019"讲好中国故事"创意传播大赛重庆分站赛启动仪式在渝举行</p>
+                    </a></div>
+                <div class="dtbox"><a href="http://cq.cqnews.net/html/2019-07/25/content_50586856.html"
+                        target="_blank"><img
+                            src="http://i2.cqnews.net/cqtoday/2019-07/25/t2_(51X53X566X352)7040aa14-d3f3-4782-b84d-692faba1e843.jpg"
+                            border="0">
+                        <p> 重庆市委宣传部常务副部长薛竹：多种对外传播方式并举 讲好重庆故事</p>
+                    </a></div>
+                <div class="dtbox"><a href="http://cq.cqnews.net/html/2019-07/25/content_50586857.html"
+                        target="_blank"><img
+                            src="http://i3.cqnews.net/cqtoday/2019-07/25/t2_(13X51X533X353)3938c891-5faf-41b3-883f-e357595e8ca4.jpg"
+                            border="0">
+                        <p> 重庆大学党委副书记王旭：用优秀作品为重庆大学90周年献礼<br></p>
+                    </a></div>
+            </article>
         </div>
-    </article>
-    
-     <!--评论开始-->
+
+        <!--评论开始-->
         <div id="hualong" sid="603049" stype="40">
             <div id="hualong-main">
                 <div class="hl-cmt-header">
@@ -574,6 +551,11 @@
             All Rights Reserved.</div>
     </div>
     <div class="gmu-media-detect" id="gmu-media-detect0"></div>
+    <script>
+        window.addEventListener("load", function () {
+            document.getElementById("_h5_loading").style.display = "none";
+        })
+    </script>
 </body>
 
 </html>

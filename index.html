@@ -14,14 +14,15 @@
     <meta name="publishedtype" content="1">
     <meta name="pagetype" content="2">
     <meta name="catalogs" content="spe_editor">
+    <script type="text/javascript" id="" src="./js/zpto-all.js"></script>
     <script type="text/javascript" id="" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/webdig.js"></script>
     <script type="text/javascript" src="./js/spm.js"></script>
-    <script type="text/javascript" id="" src="./js/zpto-all.js"></script>
+
     <script type="text/javascript" id="" src="./js/util.js"></script>
     <script type="text/javascript" id="" src="./js/shareData.js"></script>
     <script type="text/javascript" src="./js/weixin.js"></script>
-    <link type="text/css" rel="stylesheet" href="http://cmt.cqnews.net/template/css/cmt.css">
+    <link type="text/css" rel="stylesheet" href="./css/cmt.css">
     <script type="text/javascript" src="./js/template.js"></script>
     <script type="text/javascript"
         src="http://wxin2.cqnews.net/jsconfig.aspx?gp=7b79e5eb52484c758cea6533a776fe5d&amp;url=http%3A//cq.cqnews.net/cqztlm/col604654.html%3Ffrom%3Dsinglemessage%26isappinstalled%3D0">
@@ -49,16 +50,14 @@
         <div id="__plugins"><img src="./css/mo_indexStyle.css" style="display:none;"><img src="./css/h5.css"
                 style="display:none"> </div>
         <!--分享图片(标题图)-->
-        <img id="_h5_share" src="http://i1.cqnews.net/html5/90647.files/images/weblogo.png"
-            style="position:absolute; display:block; top:-9999px">
+        <img id="_h5_share" src="./images/weblogo.png" style="position:absolute; display:block; top:-9999px">
 
         <!--移动端插件（CSS/JS)-->
         <div id="__plugins">
-            <img src="http://phpad.cqnews.net/static_files/ad/PHPADM_STAT.js" style="display:none;">
-            <img src="http://www.cqnews.net/css/h5/mo_style.css" style="display:none;">
+            <img src="./js/PHPADM_STAT.js" style="display:none;">
+            <img src="./css/mo_style.css" style="display:none;">
         </div>
-        <img id="_h5_share" src="http://i1.cqnews.net/html5/90647.files/images/weblogo.png"
-            style="display:block;position:absolute;top:-9999px">
+        <img id="_h5_share" src="./images/weblogo.png" style="display:block;position:absolute;top:-9999px">
         <style type="text/css">
             html {
                 font-size: 62.5%;
@@ -392,7 +391,9 @@
         </style>
 
         <!--顶部图片-->
-        <div class="banner" style="height:auto"><img src="./images/banner.png"></div>
+        <div class="banner" style="height:auto"><img src="./images/banner.png">
+            <div class="mail">邮箱地址：abcdefg.qq.com</div>
+        </div>
         <a href="" class="return-home">
             <img src="./images/hom2.png" alt="">
         </a>
@@ -463,89 +464,342 @@
                 </div>
             </article>
             <!--  -->
-            <div class="btbox"><span>参赛手册</span>
-                <!-- <a href="http://cq.cqnews.net/cqztlm/col604739.htm" target="_blank"
-                    style="float:right; color:#FFFFFF">更多》</a> -->
-            </div>
-            <article>
-                <div class="zibox">
-                    <li><a href="http://cq.cqnews.net/cqztlm/2019-07/23/content_50581466.html" target="_blank"> 征集启事</a>
-                    </li>
-                    <li><a href="http://2019.zggsds.china.com.cn/user/login" target="_blank"> 参赛入口</a></li>
-                    <li><a href="http://cq.cqnews.net/cqztlm/2019-07/22/content_50580477.html" target="_blank"> 参赛须知</a>
-                    </li>
-                    <li><a href="http://cq.cqnews.net/cqztlm/2019-07/24/content_50583701.html" target="_blank"> 大赛章程</a>
-                    </li>
+            <div class="book">
+                <div class="btbox"><span>参赛手册</span>
+                    <!-- <a href="http://cq.cqnews.net/cqztlm/col604739.htm" target="_blank"
+            style="float:right; color:#FFFFFF">更多》</a> -->
                 </div>
-            </article>
+                <article>
+                    <div class="zibox">
+                        <li class="book-li">
+                            <div class="book-li-top cb">
+                                征集启事
+                                <i class="iconfont icon-jiahao fr"></i>
+                            </div>
+                            <div class="book-li-bottom">
+                                4月28日，2019“讲好中国故事”创意传播大赛启动会在北京举行。大赛由国务院新闻办公室指导，中国外文局主办，华中科技大学学术支持，当代中国与世界研究院、中国互联网新闻中心承办，中国新闻史学会公共关系分会特邀协办。大赛将分两个阶段进行，2019年10月，全国各地分站赛完成作品征集与评选；2019年11月至12月，创意传播大赛举行总决赛。
+                            </div>
+                        </li>
+                        <!-- <li class="book-li">
+                            <div class="book-li-top cb">
+                                参赛入口 <i class="iconfont icon-jiahao fr"></i>
+                            </div>
+                            <div class="book-li-bottom">
+                                4月28日，2019“讲好中国故事”创意传播大赛启动会在北京举行。大赛由国务院新闻办公室指导，中国外文局主办，华中科技大学学术支持，当代中国与世界研究院、中国互联网新闻中心承办，中国新闻史学会公共关系分会特邀协办。大赛将分两个阶段进行，2019年10月，全国各地分站赛完成作品征集与评选；2019年11月至12月，创意传播大赛举行总决赛。
+                            </div>
+                        </li> -->
+                        <li class="book-li">
+                            <div class="book-li-top cb">
+                                参赛须知 <i class="iconfont icon-jiahao fr"></i>
+                            </div>
+                            <div class="book-li-bottom">
+                                <div id="_h5_content" class="main_text">
+
+                                    <!--enpcontent-->
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong
+                                            style="text-indent: 2em;">一、参赛要求</strong><br></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        1、参赛作品应围绕“讲好中国故事”大主题进行创作，参赛作品分人物纪实、文化传播、风光和创意四个类别进行征集。作品符合以下方向：中国梦的故事、中国人的故事、中国文化的故事、中国城市故事、中国乡村故事、中国品牌故事。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        2、参赛作品应当导向明确，立场清晰，内容真实客观，符合国家法律法规，契合公众道德标准，坚持社会主义核心价值观。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        3、参赛者应确认拥有作品的著作权，大赛组委会不负责对参赛作品拥有权的核实，若发生侵权或违反知识产权的行为，由参赛者自行承担法律责任。大赛组委会不承担任何权益纠纷。如若出现任何权益纠纷，大赛组委会保留取消其参与活动资格并追回奖项权利及其它相关权利。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        4、大赛主办方及其被许可人和组织拥有非商业性的使用权和传播权，用于活动的报道、推广和宣传，不另付稿酬、不另行通知。参赛者与大赛主办方共享作品著作权与版权。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">5、参赛作品无论入选与否，提交的参赛资料不予退还。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        6、由大赛组委会组织评审，大赛组委会有权对作品成果通过各种合法有效的途径展示。组委会对所有参赛作品不收取任何费用。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        7、作品提交后即视为参赛者自动接受本次大赛所有规定，本次大赛最终解释权归大赛组委会所有。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>二、作品要求</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">（一）作品规格</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        规格：清晰度不低于1080P，画面质量不低于1920*1080，画面比例为16：9；画面当中不得出现任何水印；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        时长：短视频类作品为2分30秒-3分30秒，视频类作品为8分30秒-11分30秒；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        字幕：参赛作品需配有中文字幕，解说词、同期声全程加配字幕，字幕要求清晰，准确无误，无错别字、漏字、错误读音现象。鼓励加配中英双语字幕，英文字幕标准同中文字幕。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">格式：MOV/MP4；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        脚本作品介绍：需说明创作思路、制作流程、主创人员等，随作品一同上传至作品信息报送系统。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">（二）主题要求</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">作品按照人物纪实类、文化传播类、风光类和创意类四个类别进行征集。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">1、人物纪实类</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        以真实生活为创作素材，以真人真事为表现对象，或根据真实事件改编、重现的作品等。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        以单个人物或某一群体为拍摄对象，具备较强的故事性。通过凸显人物身上的某一特质和关注人物内在的精神成长过程进而传递正能量；通过展现主要拍摄对象与周围人物或事物的关系，对社会发展变迁有所反映，具有一定人文关怀的现实意义。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">2、文化传播类</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">美食文化、地域特色文化、生态文化等方向的作品。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        作品应当体现中国特有的文化现象，提炼展示中华优秀传统文化的精神标识和文化精髓。通过具有一定纪录性质的视频作品，多层面展现立体、鲜活、充满历史底蕴的文化故事，助力中华文明的国际交流与传播，让世界各国人民更加深入地了解中国。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">3、风光类</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">以影像记录城市和乡村的变迁，展现地方之美。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        主要以自然风光或人文风光为主，需要以“故事”为线索，多角度展示自然风光或人文风光，“故事”主体可以是单个或多个人物，也可以是某一自然或人文景观，内容须言之有物，不得虚构、捏造。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        作品中展示风光的内容不得低于总时长的50%，故事性内容不得低于总时长的30%。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        作品中的所有画面须由参赛者自主拍摄，不得使用图片、宣传片等公开或商用的素材，历史性素材使用不得超过作品时长的10%。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">4、创意类</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">动漫、沙画、MG动画、虚拟现实创作等创意作品。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        创意类作品要有鲜明的创作特点，做到创意好、立意深，给人以耳目一新的感觉。选题与叙事角度新颖，构思精巧，内容不拘一格，独到深刻。创作手法与角度新颖，能结合当前流行的视频拍摄、制作技术，有独特的视觉体验，能抓人眼球。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>三、作品报名</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        参赛者用个人账号在腾讯视频（图1）上传参赛作品，记录作品链接地址。同时注册登录中国网专门开发的作品信息报送系统（图2），将包括作品链接地址、视频作品脚本等相关信息按要求填写报送。报名环节建议在电脑端完成操作。
+                                    </p>
+                                    <p style="margin-bottom: 15px; text-align: center;"><img
+                                            src="http://zggsds.china.com.cn/pic/2019-06/04/777c0f82-dd29-4cf0-9571-2f494c44bb0f.jpg"
+                                            style="width: 671.818px; height: 173.636px;" title="" data-ratio="-3"></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        图1：用个人QQ/微信账号登录腾讯视频，点击右上角上传按钮（红框处），按指引上传视频，获得作品链接。</p>
+                                    <p style="margin-bottom: 15px; text-align: center;"><img
+                                            src="http://zggsds.china.com.cn/pic/2019-06/04/5b3d24dc-b830-49cc-8df3-33798b0db14e.jpg"
+                                            style="width: 550.909px; height: 317.273px;" title="" data-ratio="-3"></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">图2：注册并登录作品信息征集系统，并按要求完成作品信息报送。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        <strong>作品如出现以下行为之一的，将被取消获奖及参赛资格</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">A 含有与中华人民共和国法律法规相抵触的内容</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">B
+                                        含有色情、暴力、血腥、反动思想等不良内容以及其它违反道德底线的内容</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">C 含有商业推广性质的广告植入</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">D 含有虚构、捏造或编造性的内容</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">E
+                                        涉嫌剽窃、抄袭、翻拍等侵犯他人著作权的作品（相关行为依据《中华人民共和国著作权法》及相关规定进行界定）</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">F 作品时长不符合以上要求的</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">G 曾在类似比赛中的获奖作品或其他国际赛事中的获奖作品，均不能参赛
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">H
+                                        作品清晰度未达到1080P标准的（如在腾讯视频中不能选择“超清”规格播放）</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">I 作品提交后不得进行修改、替换，否则，一经发现或举报将取消比赛资格
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">J
+                                        赛区选择错误的参赛作品：赛区应与作品拍摄地点一致；拍摄地点为多地的，选择“其他”赛区</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>四、评审简则</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">大赛评审分为网络投票和专家评审，二者同步进行。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        大赛评选采用百分制，最高分为100分（保留小数点后两位），其中专家评审分数占比70%，网络投票占比30%。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        专家评审部分，参赛作品满分为100分，分为基本分数（60分）和类别分数（40分），两项分数之和为作品的总分数。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        基本分数：评委将从故事主题设定（30分）、题材创新（20分）、画面效果（10分）三个方面进行打分。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        类别分数：根据作品的分类，按照各类别（人物纪实类、文化传播类、风光类、创意类）的不同评审细则进行打分。</p>
+                                    <!--/enpcontent-->
+                                    <!--enpproperty <articleid>50580477</articleid><date>2019-07-22 23:36:11:0</date><author></author><title>2019“讲好中国故事”创意传播大赛参赛须知</title><keyword></keyword><subtitle>2019“讲好中国故事”创意传播大赛参赛须知</subtitle><introtitle></introtitle><siteid>82</siteid><nodeid>604739</nodeid><nodename>分站赛事</nodename><nodesearchname>今日重庆</nodesearchname><picurl>http://i2.cqnews.net/cqtoday/2019-07/22/t2_(176X0X349X117)925a95ed-bec5-4248-829d-39a5b49f755a.png</picurl><picbig>http://i3.cqnews.net/cqtoday/2019-07/22/t2_(176X0X349X117)925a95ed-bec5-4248-829d-39a5b49f755a.png</picbig><picmiddle></picmiddle><picsmall></picsmall><url>http://cq.cqnews.net/cqztlm/2019-07/22/content_50580477.html</url><urlpad>null</urlpad><liability></liability><sourcename>中国网</sourcename><abstract>参赛作品应围绕“讲好中国故事”大主题进行创作，参赛作品分人物纪实、文化传播、风光和创意四个类别进行征集。作品符合以下方向：中国梦的故事、中国人的故事、中国文化的故事、中国城市故事、中国乡村故事、中国品牌故事。</abstract><channel>1</channel>/enpproperty-->
+                                </div>
+                            </div>
+                        </li>
+                        <li class="book-li">
+                            <div class="book-li-top cb">
+                                大赛章程 <i class="iconfont icon-jiahao fr"></i>
+                            </div>
+                            <div class="book-li-bottom">
+                                <div id="_h5_content" class="main_text">
+                                    <!--enpcontent-->
+                                    <p style="margin-bottom: 15px; text-align: center;"><img
+                                            src="http://zggsds.china.com.cn/pic/2019-05/07/dcf52570-0469-44fa-8f0e-44270d06f0c9.jpg"
+                                            style="width: 584.545px; height: 3456.36px;" title="" data-ratio="-5"></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        <strong>2019“讲好中国故事”创意传播大赛章程</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>一、指导思想</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        2019“讲好中国故事”创意传播大赛是以“讲好新时代中国故事”为主旨，面向国内外社会公众公开征集各领域中国故事、传播中国好声音、树立中国良好国际形象的年度官方品牌活动。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>二、大赛组织</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">指导单位：国务院新闻办公室</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">主办单位：中国外文局</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">学术支持：华中科技大学</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">承办单位：当代中国与世界研究院、中国互联网新闻中心</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">特邀协办：中国新闻史学会公共关系分会</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>三、大赛组委会</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">大赛设组委会，组成人员名单如下：</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">主 任：杜占元 李元元</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">副主任：方正辉 高岸明 许晓东</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">委 员：王晓辉 黄 卫 陈先红</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">秘书长：于运全 杨新华</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">大赛组委会秘书处设在中国互联网新闻中心。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>四、大赛主题</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        参赛作品题材包括以下方向：中国梦的故事、中国人的故事、中国文化的故事、中国城市故事、中国乡村故事、中国品牌故事。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">作品按照人物纪实类、文化传播类、风光类和创意类四个类别进行征集。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        人物纪实类：以真实生活为创作素材，以真人真事为表现对象，或根据真实事件改编、重现的作品等；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">文化传播类：美食文化、地域特色文化、生态文化等方向的作品；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">风光类：以影像记录城市和乡村的变迁，展现地方之美；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">创意类：动漫、沙画、MG动画、虚拟现实创作等创意作品。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>五、参赛对象</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        大赛面向国内外大学生、留学生、企事业单位、各类媒体机构和社会组织征集作品。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>六、大赛流程</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        大赛于2019年4月启动，12月结束。设置启动仪式、分站赛、网络投票、专家评审、颁奖典礼、展播等环节。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">1.作品征集</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        作品征集随启动仪式同步开展。参赛者用个人账号在腾讯视频上传参赛作品，记录作品链接地址。同时注册登录中国网专门开发的作品信息报送系统，将包括作品链接地址、视频作品脚本等相关信息按要求填写报送（作品信息报送系统于5月开通）。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">作品征集时间为2019年5月-10月。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">2.分站赛与地方评选</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        大赛在部分省份设置分站赛。通过初审的作品在分站赛官方专题网页进行展示，并在PC端和移动端接受社会公众投票。按照网络投票权重占比30%，专家评审权重占比70%，评出分站赛一二三等奖。拟设一等奖5件、二等奖10件、三等奖20件。根据分站赛评选结果，将一定数量的获奖作品（一二等奖作品）报送组委会秘书处，参与全国范围的作品定评。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">3.全国评审</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        分站赛结束后，由组委会秘书处汇总分站赛获奖作品和其他地方的优秀作品，组织开展为期一周的网上投票。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        组委会邀请有关部门领导、新闻媒体负责人、专家学者、专业人士等组成专家评委会，召开评审会议，参考网上投票结果进行评审，评出大赛一二三等奖等奖项。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">4.颁奖典礼</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        拟于12月举行2019“讲好中国故事”创意传播大赛颁奖典礼，为获奖作品创作者颁奖，邀请新闻媒体进行采访报道。与颁奖典礼结合，围绕如何讲好新时代中国故事，提升国际传播能力，加强国家、城市和品牌对外传播等主题举办论坛研讨活动，邀请专家学者和获奖参赛者等参与研讨。
+                                    </p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>七、参赛作品类型与格式</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">参赛作品类型为视频类作品。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        规格：清晰度不低于1080P，画面质量不低于1920*1080，画面比例为16：9；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        时长：短视频类作品为2分30秒-3分30秒，视频类作品为8分30秒-11分30秒；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">字幕：参赛作品需配有中文字幕，中英双语字幕更佳；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">格式：MOV/MP4；</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        脚本：格式为Word文档，需说明创作思路、制作流程、主创人员等，随作品一同上传至作品信息报送系统。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>八、评奖及奖励</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        大赛全国奖项获奖作品知识产权归组委会、赞助商和参赛者共同所有；其他获奖作品归大赛组委会和参赛者共同所有。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">特等奖1-3名，奖金20000元</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">一等奖10名，奖金10000元</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">二等奖20名，奖金5000元</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">三等奖30名，奖金2000元</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">优秀奖若干</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        大赛主办方将组织开展“发现新时代”中国故事国际展播活动，对优秀作品组织全国展播和国际传播。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;"><strong>九、公示与举报</strong></p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        本着公平、公正、透明的原则，大赛实行总评审公证处全程监督、评出的获奖作品公示和举报制度。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        公示的范围、时间：公示的作品为获得大赛特等奖、一等奖、二等奖、三等奖和优秀奖的作品，在大赛官网和各分站赛官网上公示，公示期为15天，供各界监督、评议。</p>
+                                    <p style="text-indent: 2em; margin-bottom: 15px;">
+                                        举报要求：举报实行实名制（即要求写真实姓名），并要提供相应的证据（如抄袭作品来源的复印件等），匿名举报无效。举报受理由大赛组委会进行核查、提出处理意见并最终裁定。
+                                    </p>
+                                    <!--/enpcontent-->
+                                    <!--enpproperty <articleid>50583701</articleid><date>2019-07-24 14:40:26:0</date><author></author><title>大赛章程</title><keyword></keyword><subtitle>大赛章程</subtitle><introtitle></introtitle><siteid>82</siteid><nodeid>604739</nodeid><nodename>分站赛事</nodename><nodesearchname>今日重庆</nodesearchname><picurl>http://i4.cqnews.net/cqtoday/2019-07/24/t2_(0X33X567X411)7cd76782-9ff3-4d59-bc4d-a918323c8260.png</picurl><picbig>http://i1.cqnews.net/cqtoday/2019-07/24/t2_(0X33X567X411)7cd76782-9ff3-4d59-bc4d-a918323c8260.png</picbig><picmiddle></picmiddle><picsmall></picsmall><url>http://cq.cqnews.net/cqztlm/2019-07/24/content_50583701.html</url><urlpad>null</urlpad><liability></liability><sourcename>组委会</sourcename><abstract>2019“讲好中国故事”创意传播大赛是以“讲好新时代中国故事”为主旨，面向国内外社会公众公开征集各领域中国故事、传播中国好声音、树立中国良好国际形象的年度官方品牌活动。</abstract><channel>1</channel>/enpproperty-->
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                </article>
+            </div>
             <!--  -->
             <div class="btbox"><span>新闻资讯</span>
                 <!-- <a href="http://cq.cqnews.net/cqztlm/col604655.htm" target="_blank"
                     style="float:right; color:#FFFFFF">更多》</a> -->
             </div>
             <article>
-                <!--ttbox是头条新闻，字数未限定，可以撑行-->
-                <div class="ttbox">
-                    <a href="http://cq.cqnews.net/cqztlm/col601260.html" target="_blank"> 2019“讲好中国故事”创意传播大赛
-                        重庆分站赛作品征集启事</a>
-                </div>
-                <!--zybox是摘要，字数未限定，可以撑行-->
-                <div class="zybox">
-                    <a href="http://cq.cqnews.net/cqztlm/col601260.html" target="_blank">
-                        4月28日，2019“讲好中国故事”创意传播大赛启动会在北京举行。大赛由国务院新闻办公室指导，中国外文局主办，华中科技大学学术支持，当代中国与世界研究院、中国互联网新闻中心承办，中国新闻史学会公共关系分会特邀协办。大赛将分两个阶段进行，2019年10月，全国各地分站赛完成作品征集与评选；2019年11月至12月，创意传播大赛举行总决赛。</a>
-                </div>
-                <div class="ttbox">
-                    <a href="http://cq.cqnews.net/html/2019-07/25/content_50586822.html" target="_blank">
-                        2019"讲好中国故事"创意传播大赛重庆分站赛启动仪式在渝举行</a>
-                </div>
-                <!--zybox是摘要，字数未限定，可以撑行-->
-                <div class="zybox">
-                    <a href="http://cq.cqnews.net/html/2019-07/25/content_50586822.html" target="_blank">
-                        2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式今天上午在重庆大学举行。继湖北分站赛、湖南长沙分站赛启动后，网红城市重庆成为分站赛的第三站，同时也是本届大赛的首个直辖市分站赛。</a>
-                </div>
-                <div class="fgxybox"></div>
-                <div class="ttbox">
-                    <a href="http://cq.cqnews.net/html/2019-07/10/content_50558313.html" target="_blank">
-                        “讲好中国故事”创意传播大赛重庆分站赛启动 最高奖金1万元</a>
-                </div>
+                <ol class="show_more_ul">
+                    <li>
+                        <!--ttbox是头条新闻，字数未限定，可以撑行-->
+                        <div class="ttbox">
+                            2019“讲好中国故事”创意传播大赛
+                            重庆分站赛作品征集启事
+                        </div>
+                        <!--zybox是摘要，字数未限定，可以撑行-->
+                        <div class="zybox">
 
-                <div class="zybox">
-                    <a href="http://cq.cqnews.net/html/2019-07/10/content_50558313.html" target="_blank">
-                        日前，2019“讲好中国故事”创意传播大赛在北京启动。该赛事是面向国内外社会公众公开征集各领域中国故事、传播中国好声音、树立中国良好国际形象的年度官方品牌活动，致力于汇集各方力量，共同讲好中国故事，对外展现真实、立体、全面的中国。今（10）日，该赛事重庆分站赛也在重庆大学启动，如何参赛、有哪些规则和要求，进来看看吧！</a>
-                </div>
+                            4月28日，2019“讲好中国故事”创意传播大赛启动会在北京举行。大赛由国务院新闻办公室指导，中国外文局主办，华中科技大学学术支持，当代中国与世界研究院、中国互联网新闻中心承办，中国新闻史学会公共关系分会特邀协办。大赛将分两个阶段进行，2019年10月，全国各地分站赛完成作品征集与评选；2019年11月至12月，创意传播大赛举行总决赛。
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ttbox">
+
+                            2019"讲好中国故事"创意传播大赛重庆分站赛启动仪式在渝举行
+                        </div>
+                        <div class="zybox">
+
+                            2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式今天上午在重庆大学举行。继湖北分站赛、湖南长沙分站赛启动后，网红城市重庆成为分站赛的第三站，同时也是本届大赛的首个直辖市分站赛。
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ttbox">
+
+                            “讲好中国故事”创意传播大赛重庆分站赛启动 最高奖金1万元
+                        </div>
+
+                        <div class="zybox">
+
+                            日前，2019“讲好中国故事”创意传播大赛在北京启动。该赛事是面向国内外社会公众公开征集各领域中国故事、传播中国好声音、树立中国良好国际形象的年度官方品牌活动，致力于汇集各方力量，共同讲好中国故事，对外展现真实、立体、全面的中国。今（10）日，该赛事重庆分站赛也在重庆大学启动，如何参赛、有哪些规则和要求，进来看看吧！
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ttbox"> 2019“讲好中国故事”创意传播大赛重庆分站赛开赛</div>
+                        <div class="zybox">
+                            <p>中国网重庆7月10日讯（记者 魏婧 彭瑶）2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式今日上午在重庆大学举行。</p>
+                            <p> 重庆作为新晋网红城市，早已成为游客心目中的“打卡圣地”。作为本次大赛启动分站赛的首个直辖市，重庆将激发更多有志于讲好中国故事的高手，共同挖掘富有文化底蕴和时代特点的故事，呈献给喜爱这座城市的人们。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ttbox">
+                            用匠心和创意浇灌国产动画电影
+                            讲好中国故事
+                        </div>
+                        <div class="zybox">
+                            <p>
+                                暑期档即将过半，略显低迷的电影市场终于因为《哪吒之魔童降世》“燃”了起来。剖析这部国产动画电影的出色表现，让人们对匠心和创意有了更多的思考。
+                            </p>
+                            <p>长期以来，低幼内容滥竽充数，成人动画数量不足，导致国产动画电影一直没有能力开拓稳定的受众市场。中国不乏有趣的人物形象和故事，甚至一些中国元素已经被国外动画打造为成熟的IP产业链。例如红极一时的《功夫熊猫》，运用了大量典型的中国元素。需要思考的是，为什么同样的中国故事别人拿去就能风靡全球，我们自己却讲不出好的故事？
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ttbox">
+                            弘扬革命精神，讲好中国故事
+                        </div>
+                        <div class="zybox">
+                            <p>讯 （重庆晨报·上游新闻记者 谭柯 实习生
+                                郭昊旻）弘扬革命精神，讲好中国故事。为隆重庆祝新中国成立70周年，大力实施红色基因传承工程，为“不忘初心、牢记使命”主题教育提供教育阵地和教育内容，昨日，“礼赞新中国·讴歌新时代”重庆市爱国主义教育基地精品巡展活动率先在城口县拉开序幕，将于7月31日至8月14日举办“仰望帅星——一代名帅刘伯承生平业绩展”精品巡展活动。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ttbox">
+                            直播回顾|2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式
+                        </div>
+                        <div class="zybox">
+                            <p>2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式定于7月10日9:30在重庆大学A区民主湖报告厅举办，本次分站赛由重庆市人民政府新闻办公室指导，当代中国与世界研究院、中国互联网新闻中心、重庆大学主办，重庆大学新闻学院、华龙网集团承办，碧桂园首席支持，中国网将为本次活动进行全程直播。2019“讲好中国故事”创意传播大赛由国务院新闻办公室指导，中国外文局主办，华中科技大学学术支持，当代中国与世界研究院、中国互联网新闻中心承办，以“讲好新时代中国故事”为主旨，是面向国内外社会公众公开征集各领域中国故事，传播中国好声音、树立中国良好国际形象的年度官方品牌活动。本届大赛在部分省份和城市设立分站赛。
+                            </p>
+                        </div>
+                    </li>
+                </ol>
             </article>
             <article>
-                <div class="zibox">
-                    <li><a href="http://cq.cqnews.net/html/2019-07/25/content_50586882.html" target="_blank">
-                            2019“讲好中国故事”创意传播大赛重庆分站赛开赛<br></a></li>
-                    <li><a href="http://cq.cqnews.net/html/2019-08/02/content_50600384.html" target="_blank">
-                            用匠心和创意浇灌国产动画电影
-                            讲好中国故事</a></li>
-                    <li><a href="http://cq.cqnews.net/html/2019-08/01/content_50598420.html" target="_blank">
-                            弘扬革命精神，讲好中国故事</a></li>
-                    <li><a href="http://wx.china.com.cn/scene/content/article/straight/8665" target="_blank">
-                            直播回顾|2019“讲好中国故事”创意传播大赛重庆分站赛启动仪式</a></li>
-                </div>
+
             </article>
             <!--  -->
             <div class="btbox"><span>图片新闻</span></div>
 
             <article class="img-list">
                 <div class="dtbox"><a href="http://cq.cqnews.net/html/2019-07/25/content_50586822.html"
-                        target="_blank"><img
-                            src="http://i1.cqnews.net/cqtoday/2019-07/25/t2_(1X0X596X343)ece17454-ce85-4a9c-a59c-496774765660.jpg"
+                        target="_blank"><img src="./images/t2_(1X0X596X343)ece17454-ce85-4a9c-a59c-496774765660.jpg"
                             border="0">
                         <p> 2019"讲好中国故事"创意传播大赛重庆分站赛启动仪式在渝举行</p>
                     </a></div>
                 <div class="dtbox"><a href="http://cq.cqnews.net/html/2019-07/25/content_50586856.html"
-                        target="_blank"><img
-                            src="http://i2.cqnews.net/cqtoday/2019-07/25/t2_(51X53X566X352)7040aa14-d3f3-4782-b84d-692faba1e843.jpg"
+                        target="_blank"><img src="./images/t2_(51X53X566X352)7040aa14-d3f3-4782-b84d-692faba1e843.jpg"
                             border="0">
                         <p> 重庆市委宣传部常务副部长薛竹：多种对外传播方式并举 讲好重庆故事</p>
                     </a></div>
                 <div class="dtbox"><a href="http://cq.cqnews.net/html/2019-07/25/content_50586857.html"
-                        target="_blank"><img
-                            src="http://i3.cqnews.net/cqtoday/2019-07/25/t2_(13X51X533X353)3938c891-5faf-41b3-883f-e357595e8ca4.jpg"
+                        target="_blank"><img src="./images/t2_(13X51X533X353)3938c891-5faf-41b3-883f-e357595e8ca4.jpg"
                             border="0">
                         <p> 重庆大学党委副书记王旭：用优秀作品为重庆大学90周年献礼<br></p>
                     </a></div>

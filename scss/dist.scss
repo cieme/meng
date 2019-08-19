@@ -45,6 +45,7 @@
 
 .gmu-media-detect {
     -webkit-transition: width 0.001ms;
+    -o-transition: width 0.001ms;
     transition: width 0.001ms;
     width: 0;
     position: relative;
@@ -223,6 +224,10 @@
 
     background-image: -webkit-gradient(linear, left top, right top, from(#4489ca), to(#ce0064));
 
+    background-image: -webkit-linear-gradient(left, #4489ca, #ce0064);
+
+    background-image: -o-linear-gradient(left, #4489ca, #ce0064);
+
     background-image: linear-gradient(90deg, #4489ca, #ce0064);
     bottom: 30%;
     -webkit-animation: sca 1s ease-in-out infinite;
@@ -324,4 +329,56 @@
         }
     }
 
+}
+
+.banner {
+    position: relative;
+
+    .mail {
+        position: absolute;
+        left: percentage($number: 584/1920);
+        font-family: '微软雅黑';
+        font-size: 1vw;
+        font-weight: bold;
+        color: #333;
+        opacity: 0.8;
+        top: percentage($number: 406/576);
+        letter-spacing: 0.14em;
+
+        @media screen and (max-width:750px) {
+            letter-spacing: 0em;
+            font-size: 0.1rem;
+        }
+    }
+}
+
+.book-li {
+    img {
+        max-width: 100%;
+        height: auto !important;
+    }
+}
+
+.show_more_ul {
+    padding: 0;
+    margin: 0;
+
+    .ttbox {
+        color: #ce0064;
+        border-bottom: 1px dashed #ce0064;
+        margin: 0;
+        padding: 0.9rem 0;
+    }
+
+    .zybox {
+        color: #333;
+        text-indent: 2em;
+        display: none;
+        padding: 0.9rem 0;
+        border-bottom: 1px dashed #ce0064;
+
+        p {
+            text-indent: 2em;
+        }
+    }
 }

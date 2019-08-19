@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {font-size:62.5%; }
+body { margin:0px; padding:0px;overflow-x: hidden;font-family:Helvetica; }
+a:link {text-decoration: none; }
+a:visited {text-decoration: none; }
+a:hover {text-decoration: none; }
+a:active {text-decoration: none; }
+a { color:#333; }
+img  { border:0; }
+.clear { clear:both; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.fleft { float:left; }
+.fright { float:right; }
+h1,h2,h3,h4,dd,dl,dt,ul,li,input,form,img ,p{ padding:0; margin:0; list-style:none; font-weight:normal; }
+.blue , .blue a { color:#2b73df; }
+.orange , .orange a { color:#F90; }
+.fff , .fff a { color:#fff; }
+h2 { padding:0 3.1%; height:3.4rem; line-height:3.4rem; font-weight:bold; font-size:1.6rem; }
+.mt10 { margin-top:1rem; }
+.h5px { height:0.5rem; }
+.h10px { height:1rem; }
+.h15px { height:1.5rem; }
+.gg1 img { width:100%; height:auto; }
+.gg2 { margin:0 3.1% ;text-align:center; }
+.gg2>div { width:auto !important; }
+.gg2 img { width:100%; height:auto; }
+#_h5_box { display:none; }
+
+/*loading*/
+#_h5_loading { width:100%;height:100%;left:0;top:0;z-index:10000; position:fixed; background:url(http://www.cqnews.net/common/cache/images/loading_img.gif) no-repeat 50% 40%,url(http://www.cqnews.net/common/cache/images/loading_txt.jpg) no-repeat 50% 72%; background-color:#ffffff; background-size:45%,65%; }
+
+/*导航*/
+header { color: #fff;overflow: hidden;background-color:#e64952; }
+.logo { height:4.5rem; width:21rem; font-weight:bold;text-indent:1rem; line-height:4.5rem; font-size:1.6rem;font-family:"Microsoft Yahei";}
+.w-p31 {padding: 0 3.1%;}
+.w-p31 span { font-size:1.4rem; color:#fff; }
+.dhbox { font-size:1.4rem; width:3.4rem; font-size:1.6rem; padding-right:1.6rem;line-height:4.5rem;}
+.dhbox1 { background: url(http://www.cqnews.net/images/h5/tu3.png) right center no-repeat;background-size: 30% auto; }
+.dhbox2 { background: url(http://www.cqnews.net/images/h5/tu2.png) right center no-repeat;background-size:30% auto; }
+.dhbox3 {  font-size:1.6rem; width:12rem; padding-right:1.6rem;line-height:4.5rem;}
+.dhbox3 a { padding:0 0.6rem 0 0}
+nav { overflow:hidden; padding:0; }
+nav div { overflow:hidden; }
+nav div a { float:left; width:10%; padding-left:5.8%; line-height:2.6rem;font-size:1.6rem; height:2.6rem; display:block;}
+.h5_nav_content { display:none; margin:.5rem 0; }
+.w22 { width:auto; padding-left:6.1%; }
+
+/*分享*/
+#jiathis_weixin_modal { width:90% !important; margin:auto !important; left:0 !important; right:0 !important; top:0 !important; bottom:0 !important; }
+
+/* 内容*/
+article { padding:1rem 3.1% 1.8rem 3.1%; }
+.author a { background-image:url('') !important; padding:0 !important; display:inline !important; color:#999 !important; }
+.bigtitle { font-size:2.3rem; line-height:2.8rem; margin:1rem 0; font-weight:bold; }
+.smalltitle  { font-size:1.2rem; color:#999; padding-top:0.5rem; border-bottom:1px solid #eceef0; height:2.6rem; line-height:1.6rem; }
+.smalltitle .time { display: inline-block; padding-right:1.5rem; float: left; }
+.smalltitle .author { display: inline-block; padding-right:1rem; }
+.smalltitle a { background: url(http://www.cqnews.net/images/h5/index_04.jpg) left center no-repeat;background-size:auto 70% ; display:block; padding-left:1.4rem; }
+.main_text { padding:1.4rem 0 1rem; font-size:1.8rem; line-height:2.8rem; }
+.main_text img { width:100% !important; height:auto !important; }
+.main_text center { font-size:1.6rem; color:#666; line-height:2.4rem; }
+.main_text p { font-size:1.8rem; line-height: 2.8rem; text-indent:0; color: #333; margin: 1.4rem 0; text-align: justify; word-wrap: break-word; }
+.more { height:3.5rem; line-height:3.5rem; position:relative; margin:0 auto; width:80%; border-radius:0.4rem; border: 1px solid #efefef; background-color: #f6f5f5; text-align: center; }
+.more a { width:100%; height:3.5rem; color:#666}
+.more img { height:70% !important; width:auto !important; display:block; position:absolute; margin:auto; left:0; right:0; top:0; bottom:0; }
+.more span { font-size:1.6rem; background:url(http://www.cqnews.net/images/h5/tu5.png) left center no-repeat; padding:0 0 0 2rem;background-size:auto 90%; }
+.boxgn { margin:0 0.2rem 2.3rem; font-size:1.3rem; height:2.4rem; color:#999; line-height:2.4rem; }
+.boxgn_lef { width:50%; }
+.boxgn_lef a { display:block; float:left; padding:0 1rem 0 2rem; }
+.boxgn_lef_1 { background:url(http://www.cqnews.net/images/h5/0701_03.jpg) left center no-repeat; background-size:auto 90%; }
+.boxgn_lef_2 { background:url(http://www.cqnews.net/images/h5/0701_05.jpg) left center no-repeat; background-size:auto 90%; }
+.boxgn_rig { width:50%; text-align:right; }
+
+/* 相关 */
+.boxlb li { height:4rem; line-height:4rem; overflow:hidden; font-size:1.6rem; }
+.boxlb li a { float:none; width:auto; display:inline; }
+
+/* 推荐*/
+.boxtj { padding: 1rem 0; }
+.boxbt { background:url(http://www.cqnews.net/images/h5/bj1.jpg) no-repeat; height:4rem; line-height:4rem;padding: 0 3.1%; background-size:100% 100%; }
+.boxbt .title1 { float:left; font-size:1.8rem; width:8.5rem; font-weight:bold; }
+.boxbt .title2 { float:right; text-align:right;font-size:1.4rem;line-height:3.8rem; }
+.boxbt .title2 a { float:right; display:block; margin-left:1rem; }
+.boxrmtj { padding:0 3.1%;}
+.boxrmtj li { padding: 1.3rem 0 1.5rem; overflow:hidden; display:block; border-bottom: 1px solid #f2f2f2; }
+.boxrmtj li:last-of-type { border-bottom: none;box-shadow: none;/* display: none; */}
+.boxrmtj li img { width:32%; max-width:28rem; max-height:13rem; padding-top:0.2rem; float:left; }
+.boxrmtj li .rmtj_rig { float:right;  width:65%; font-size:1.6rem; line-height:2rem; }
+.boxrmtj li .rmtj_rig .rmtj_rig_x { font-size:1.2rem; height:1.4rem; padding-top:0.6rem; line-height:1.4rem; color:#b8b8b8; }
+.rmtj_xbox_t {background: url(http://www.cqnews.net/images/h5/index_04.jpg) left center no-repeat;background-size:auto 60% ; padding-left:1.4rem; }
+
+/* 推荐图*/
+.boxtp { padding:0 3.1%; overflow:hidden; }
+.boxtp a { float:left; width:47%; padding:0.6rem 1.5% 0; text-align:center; }
+.boxtp a img { max-width:28rem; max-height:13rem; display:block; width: 93.5%; height:11rem; margin:0 auto; }
+.boxtp a p { font-size:1.3rem; line-height:1.6rem; margin:.6rem 0; }
+
+/* 底部*/
+.more1 { height: 3.5rem;line-height: 3.5rem; margin:1.3rem auto auto auto; width:80%; border-radius:0.4rem; border: 1px solid #efefef; background-color: #f6f5f5; text-align: center; }
+.more1 a { width:100%; height:3.5rem; color:#666; }
+.more1 span { font-size:1.6rem; background:url(http://www.cqnews.net/images/h5/tu6.png) left center no-repeat; padding:0 0 0 2rem;background-size:auto 90%; }
+.footdh { background:#2b73df; margin-top:2rem; padding:0.6rem 3%;line-height:2.6rem;font-size:1.6rem; height:2.6rem; }
+.footdh a { float:left; width:16.6%;  text-align:center; display:block; }
+.foot { background:#1858b9; padding:1.4rem 0 ; line-height:1.6rem; font-size:1.2rem; text-align:center; }
+.downloadxcq a img{display:block;width:100%;height:auto;}
